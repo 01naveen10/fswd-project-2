@@ -27,6 +27,11 @@ h1 {
     transform: scale(1.05);
 }
 
+.icons {
+    display: inline;
+    margin-left: 10%;
+}
+
 .fab {
     margin: 0 20px;
 }
