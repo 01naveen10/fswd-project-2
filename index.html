@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/97c25eaae4.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -20,7 +22,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand text-primary" href="#">VDP solutions </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -56,7 +58,7 @@
                 </div>
             </div>
 
-            <h1>About</h1>
+            <h1 class="mt-3">About</h1>
             <p class="fs-4">VDP solutions is a digital service provider that aims to provide software, designing and marketing solutions to individuals and businesses. At VDP, it is believed that service and quality is the key to success. Founded and Funded by Graphic
                 designers from Jahirathu Junction, VDP solns has now set a new path towards Digital Solutions.
             </p>
@@ -65,6 +67,7 @@
 
     <section class="Projects mt-5 container">
         <h1>Featured Projects</h1>
+        <hr>
         <div class="gallery row">
             <img src="imgs/s-1.jpg " class="gallery-img col" alt="Image 1 ">
 
@@ -82,18 +85,79 @@
         </div>
     </section>
 
-    <section class="services ">
-        <!-- Services we provide:Listed above -->
+    <section class="services container mt-3">
+
+        <h1>Services Provided by VDP Solutions Pvt Ltd:</h1>
+        <hr>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Development</h5>
+                </div>
+                <p class="mb-1">We develop responsive, functional and super-fast websites. We keep User Experience in mind while creating websites. A website should load quickly and should be accessible even on a small view-port and slow internet connection.</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Mobile Application</h5>
+                </div>
+                <p class="mb-1">We offer a wide range of professional Android, iOS & Hybrid app development services for our global clients, from a start up to a large enterprise. </p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Design</h5>
+                </div>
+                <p class="mb-1">We offer professional Graphic design, Brochure design & Logo design. We are experts in crafting visual content to convey the right message to the customers.We also design custom wraps for your products(also known as package designing)</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Consultancy</h5>
+                </div>
+                <p class="mb-1">We are here to provide you with expert advice on your design and development requirement.</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Videos</h5>
+                </div>
+                <p class="mb-1">We create a polished professional video that impresses your audience.</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Product photo shoot</h5>
+                </div>
+                <p class="mb-1">We create a polished professional photo of the products that impresses your audience.</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Social Media Managment</h5>
+                </div>
+                <p class="mb-1">We will manage your social media with graphically impressive posts and stories that helps you get better leads and increases popularity</p>
+            </a>
+        </div>
     </section>
 
-    <section class="contact ">
-        <!-- Contact us: Need help? Contact us(tab) -->
+    <section class="contact m-5">
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-info p-3" type="button">Contact us</button>
+
+        </div>
     </section>
 
-    <footer>
-        <!-- Optional(footer): logo, Contact information,Social Media links -->
+    <footer class=" bg-dark py-4 ">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a class="btn btn-danger" href="#"> Back to top</a>
+            </p>
+            <div class="icons text-light text-center">
+                &copy;
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+
+
+        </div>
     </footer>
-
 
     <!-- Optional(footer): logo, Contact information,Social Media links -->
     <!-- Option 1: Bootstrap Bundle with Popper -->

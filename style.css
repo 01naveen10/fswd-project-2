@@ -26,3 +26,7 @@ h1 {
 .gallery-img:hover {
     transform: scale(1.05);
 }
+
+.fab {
+    margin: 0 20px;
+}
